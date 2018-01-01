@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import ChordDiagram from 'react-chord-diagram';
-//import Chord from './Chord';
+import Chord from './Chord';
 import { Sidebar, Dropdown, Advertisement, Divider, Select, Grid, Contianer, Segment, Table, Checkbox, Button, Menu, Icon } from 'semantic-ui-react';
 import { Image, List } from 'semantic-ui-react';
 import './css/style.css';
@@ -10,7 +10,7 @@ import App from './App';
 import { Input } from 'semantic-ui-react'
 import Slide from './Slide';
 import SlideOne from './SlideOne';
-import Chord from './chord/src/chord';
+//import Chord from './chord/src/chord';
 
  const options = [{ key: 0, text: 'None', value: 0 },
                   { key: 1, text: 'Chord Daigram', value: 1 },
