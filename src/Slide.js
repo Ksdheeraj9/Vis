@@ -14,7 +14,7 @@ class Slide extends Component{
  
   }
 componentDidMount(){
-    axios.get("https://api.myjson.com/bins/1g8w3b")
+    axios.get("https://api.myjson.com/bins/gdmwx")
      .then((response)=>{
       this.setState(()=>{
                return {
