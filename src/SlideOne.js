@@ -16,7 +16,7 @@ class SlideOne extends Component  {
  
   }
 componentDidMount(){
-    axios.get("https://api.myjson.com/bins/7wszj")
+    axios.get("https://api.myjson.com/bins/119y8x")
      .then((response)=>{
       this.setState(()=>{
                return {
